@@ -1,0 +1,41 @@
+<nav class="p-3 flex bg-white justify-between items-center">
+    <a routerLink="" class="flex gap-2 items-center">
+        <img src="favicon.ico" alt="Logo" class="object-cover max-w-12 max-h-12">
+        <span class="font-medium">Site Name</span>
+    </a>
+
+    <div id="nav-menu" class="hidden md:flex gap-12">
+        <a routerLink="" class="font-medium hover:text-blue-500">Home</a>
+        <a routerLink="" class="font-medium hover:text-blue-500">Docs</a>
+        <a routerLink="" class="font-medium hover:text-blue-500">ChangeLogs</a>
+        <a routerLink="" class="font-medium hover:text-blue-500">Blogs</a>
+        <a routerLink="" class="font-medium hover:text-blue-500">Register</a>
+    </div>
+    
+    <button class="hidden md:flex gap-2 items-center border-1 border border-gray-400 p-2 rounded-lg hover:border-gray-600">
+        <span>Electron Developers</span>
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+    <button class="p-2 md:hidden" (click)="handleMenu()">
+        <i class="fa-solid fa-bars text-gray-600"></i>
+    </button>
+    <div *ngIf="mobile_screen" class="md:hidden fixed bg-red-100 inset-0 p-3">
+        <div id="nav-bar" class="flex justify-between">
+            <a routerLink="" class="flex gap-2 items-center">
+                <img src="favicon.ico" alt="Logo" class="object-cover max-w-12 max-h-12">
+                <span class="font-medium">Site Name</span>
+            </a>
+            <button class="p-2 md:hidden" (click)="handleMenu()">
+                <i class="fa-solid fa-x text-gray-600"></i>
+            </button>
+        </div>
+
+        <div class="">
+            <a routerLink="" class="font-medium hover:text-blue-500 block text-center p-2 hover:bg-white">Home</a>
+            <a routerLink="" class="font-medium hover:text-blue-500 block text-center p-2 hover:bg-white">Docs</a>
+            <a routerLink="" class="font-medium hover:text-blue-500 block text-center p-2 hover:bg-white">ChangeLogs</a>
+            <a routerLink="" class="font-medium hover:text-blue-500 block text-center p-2 hover:bg-white">Blogs</a>
+            <a routerLink="" class="font-medium hover:text-blue-500 block text-center p-2 hover:bg-white">Register</a>
+        </div>
+    </div>
+</nav>
