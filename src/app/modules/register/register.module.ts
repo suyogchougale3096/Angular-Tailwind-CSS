@@ -5,13 +5,15 @@ import { RegisterRoutingModule } from './register-routing.module';
 import { RegisterComponent } from './register.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HerosectionComponent } from './components/herosection/herosection.component';
+import { CompanyinfosliderComponent } from './components/companyinfoslider/companyinfoslider.component';
 
 
 @NgModule({
   declarations: [
     RegisterComponent,
     NavbarComponent,
-    HerosectionComponent
+    HerosectionComponent,
+    CompanyinfosliderComponent
   ],
   imports: [
     CommonModule,
