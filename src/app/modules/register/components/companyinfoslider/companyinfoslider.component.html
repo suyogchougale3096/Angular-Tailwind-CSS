@@ -1,1 +1,4 @@
-<p>companyinfoslider works!</p>
+<div *ngFor="let item of imgArray">
+    <img [src]="item.imgUrl" alt="Company Logo">
+    <div>{{item.companyName}}</div>
+</div>
