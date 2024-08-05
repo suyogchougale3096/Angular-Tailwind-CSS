@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HerosectionComponent } from './components/herosection/herosection.component';
 import { CompanyinfosliderComponent } from './components/companyinfoslider/companyinfoslider.component';
 import { StepfeatureComponent } from './components/stepfeature/stepfeature.component';
+import { NativeComponent } from './components/native/native.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { StepfeatureComponent } from './components/stepfeature/stepfeature.compo
     NavbarComponent,
     HerosectionComponent,
     CompanyinfosliderComponent,
-    StepfeatureComponent
+    StepfeatureComponent,
+    NativeComponent
   ],
   imports: [
     CommonModule,
