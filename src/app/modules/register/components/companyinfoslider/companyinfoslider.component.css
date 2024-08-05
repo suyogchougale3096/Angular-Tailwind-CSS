@@ -1,0 +1,11 @@
+.company {
+    animation: myfirst 5s infinite;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: #fafafa;}
+    25%  {background: #f4f4f5;}
+    50%  {background: #e5e7eb; }
+    75%  {background: #d1d5db;}
+    100% {background: #9ca3af;}
+  }

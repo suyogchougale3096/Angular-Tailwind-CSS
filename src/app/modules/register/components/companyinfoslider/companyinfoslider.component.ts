@@ -19,6 +19,60 @@ export class CompanyinfosliderComponent implements OnInit {
     },
     {
       imgUrl : 'favicon.ico', companyName : "D"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "B"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "C"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "D"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "B"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "C"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "D"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "B"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "C"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "D"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "B"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "C"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "D"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "B"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "C"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "D"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "B"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "C"
+    },
+    {
+      imgUrl : 'favicon.ico', companyName : "D"
     }
   ]
   constructor() { }
