@@ -7,7 +7,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  mobile_screen : boolean = true;
+  mobile_screen : boolean = false;
   big_screen : boolean = true;
   
   constructor(private element : ElementRef) {
@@ -18,6 +18,6 @@ export class NavbarComponent implements OnInit {
 
   handleMenu(){
     this.mobile_screen = !this.mobile_screen;
-    if(this.mobile_screen) this.big_screen = !this.mobile_screen
+    // if(this.mobile_screen) this.big_screen = !this.mobile_screen
   }
 }
