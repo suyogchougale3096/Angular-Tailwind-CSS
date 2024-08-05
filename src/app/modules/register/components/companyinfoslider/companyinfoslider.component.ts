@@ -9,70 +9,70 @@ export class CompanyinfosliderComponent implements OnInit {
 
   imgArray = [
     {
-      imgUrl : 'favicon.ico', companyName : "A"
+      imgUrl : './assets/images/3.svg', companyName : "A"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "B"
+      imgUrl : './assets/images/3.svg', companyName : "B"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "C"
+      imgUrl : './assets/images/3.svg', companyName : "C"
     },
     {
-      imgUrl : 'favicon.ico', companyName : "D"
+      imgUrl : './assets/images/3.svg', companyName : "D"
     }
   ]
   constructor() { }
